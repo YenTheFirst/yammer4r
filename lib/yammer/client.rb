@@ -37,6 +37,11 @@ module Yammer
       params.merge!(:resource => :messages)
       yammer_request(action, params)
     end
+    
+    def group(action,params)
+      params.merge(:resource=>:groups)
+      yammer_request(action, params)
+    end
 
     def users(params = {})
       params.merge!(:resource => :users)
