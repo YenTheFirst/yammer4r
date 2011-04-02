@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
-  s.name    = 'pmoran-yammer4r'
-  s.version = '0.1.5'
+  s.name    = 'yammer4r'
+  s.version = '0.1.5
   s.date    = '2009-12-29'
 
   s.summary = "Yammer access for ruby"
