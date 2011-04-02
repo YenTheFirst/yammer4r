@@ -39,7 +39,7 @@ module Yammer
     end
     
     def group(action,params)
-      params.merge(:resource=>:groups)
+      params.merge!(:resource => :groups)
       yammer_request(action, params)
     end
 
